@@ -7,7 +7,7 @@ type Props = {
 
 export const HeadLine = ({ children }: Props) => {
   return (
-    <Box py={1}>
+    <Box py={0.5}>
       <Typography color="primary" variant="h6" fontWeight={700}>
         {children}
       </Typography>

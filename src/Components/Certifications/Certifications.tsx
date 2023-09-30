@@ -1,11 +1,17 @@
-import { Box, Link, Typography } from '@mui/material';
+import { Box, Link, Theme, Typography, useMediaQuery } from '@mui/material';
 import { HeadLine } from '../HeadLine';
 
 export const Certifications = () => {
+  const isMobile = useMediaQuery<Theme>((theme) => theme.breakpoints.down('sm'));
+
   return (
     <Box display="flex" flexDirection="column">
       <HeadLine> Licenses & Certifications</HeadLine>
-      <Box display="flex" justifyContent="space-between">
+      <Box
+        display="flex"
+        justifyContent="space-between"
+        flexDirection={isMobile ? 'column' : 'row'}
+      >
         <Box display="flex" flexDirection="column">
           <Box display="flex" alignItems="center">
             <Typography fontWeight={700}> freeСodeСamp </Typography>
@@ -39,7 +45,7 @@ export const Certifications = () => {
           <Typography> JavaScript Algorithms and Data Structures</Typography>
         </Box>
 
-        <Box display="flex" flexDirection="column">
+        <Box display="flex" flexDirection="column" pt={isMobile ? 2 : 0}>
           <Box display="flex" alignItems="center">
             <Typography fontWeight={700}> SoloLearn </Typography>
             <Typography color="gray" fontStyle="italic">

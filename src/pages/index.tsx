@@ -11,7 +11,7 @@ import { ThemeProvider } from '@mui/material';
 import { useTheme } from '../styles/mui-theme';
 
 const pageStyles = {
-  width: '700px',
+  width: 'min(700px, 100%)',
   margin: '0 auto',
   padding: '4px',
 };
