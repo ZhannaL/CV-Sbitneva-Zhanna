@@ -23,7 +23,7 @@ export const AdditionalExperience = () => {
           alignItems={isMobile ? 'flex-start' : 'center'}
           flexDirection={isMobile ? 'column' : 'row'}
         >
-          <Typography>Mine game (React, Gatsby)&nbsp;-&nbsp;</Typography>
+          <Typography>Mines game (React, Gatsby)&nbsp;-&nbsp;</Typography>
           <Link target="_blank" color="#000" href="https://mines-react.netlify.app/">
             https://mines-react.netlify.app/
           </Link>
