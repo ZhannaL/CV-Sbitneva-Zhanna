@@ -6,7 +6,7 @@ export const AdditionalExperience = () => {
 
   return (
     <Box display="flex" flexDirection="column">
-      <HeadLine> Additional Experience / Own projects</HeadLine>
+      <HeadLine> Additional Experience </HeadLine>
       <Box display="flex" flexDirection="column" sx={{ fontSize: '14px' }}>
         <Box
           display="flex"

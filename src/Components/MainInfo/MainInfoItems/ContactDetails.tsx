@@ -1,7 +1,7 @@
 import { Box, Link, Typography } from '@mui/material';
 
 const firstColumn = {
-  minWidth: '70px',
+  minWidth: '65px',
   paddingBottom: '2px',
 } as const;
 
@@ -40,9 +40,12 @@ export const ContactDetails = () => {
         <Typography color="primary" variant="body2" sx={firstColumn}>
           Linkedin:
         </Typography>
-        <Link target="_blank" href="https://www.linkedin.com/in/zhanna-sbitneva-9a05a0b0/">
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/zhanna-sbitneva-9a05a0b0/?locale=en_US"
+        >
           <Typography variant="body2" color="black">
-            https://www.linkedin.com/in/zhanna-sbitneva-9a05a0b0/
+            https://www.linkedin.com/in/zhanna-sbitneva
           </Typography>
         </Link>
       </Box>

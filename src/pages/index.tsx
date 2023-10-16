@@ -9,11 +9,12 @@ import {
 } from '../Components';
 import { ThemeProvider } from '@mui/material';
 import { useTheme } from '../styles/mui-theme';
+import '../styles/normalize.css';
 
 const pageStyles = {
   width: 'min(700px, 100%)',
   margin: '0 auto',
-  padding: '4px',
+  padding: '2px',
 };
 
 const IndexPage = () => {

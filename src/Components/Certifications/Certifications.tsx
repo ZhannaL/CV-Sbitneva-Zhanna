@@ -15,12 +15,9 @@ export const Certifications = () => {
         <Box display="flex" flexDirection="column">
           <Box display="flex" alignItems="center">
             <Typography fontWeight={700}> freeСodeСamp </Typography>
-            <Typography color="gray" fontStyle="italic">
-              {' '}
-              &nbsp; – &nbsp;freecodecamp.org
-            </Typography>
+            <Typography> &nbsp; – &nbsp;freecodecamp.org</Typography>
           </Box>
-          <Typography color="gray" variant="caption">
+          <Typography variant="caption">
             January 2020 -{' '}
             <Link
               target="_blank"
@@ -32,7 +29,7 @@ export const Certifications = () => {
           </Typography>
           <Typography> Responsive Web Design </Typography>
 
-          <Typography color="gray" variant="caption">
+          <Typography variant="caption">
             February 2020 -{' '}
             <Link
               target="_blank"
@@ -48,12 +45,9 @@ export const Certifications = () => {
         <Box display="flex" flexDirection="column" pt={isMobile ? 2 : 0}>
           <Box display="flex" alignItems="center">
             <Typography fontWeight={700}> SoloLearn </Typography>
-            <Typography color="gray" fontStyle="italic">
-              {' '}
-              &nbsp; – &nbsp;sololearn.com
-            </Typography>
+            <Typography> &nbsp; – &nbsp;sololearn.com</Typography>
           </Box>
-          <Typography color="gray" variant="caption">
+          <Typography variant="caption">
             February 2020 -{' '}
             <Link
               target="_blank"
@@ -65,7 +59,7 @@ export const Certifications = () => {
           </Typography>
           <Typography> CSS Fundamentals course </Typography>
 
-          <Typography color="gray" variant="caption">
+          <Typography variant="caption">
             February 2020 -{' '}
             <Link
               target="_blank"

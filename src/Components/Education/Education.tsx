@@ -8,10 +8,7 @@ export const Education = () => {
       <Box display="flex" flexDirection="column">
         <Box display="flex" alignItems="center">
           <Typography fontWeight={700}> The Rolling Scopes Poland </Typography>
-          <Typography color="gray" fontStyle="italic">
-            {' '}
-            &nbsp; – &nbsp;student
-          </Typography>
+          <Typography color="gray"> &nbsp; – &nbsp;student</Typography>
         </Box>
         <Typography color="gray" variant="caption">
           March 2020 - August 2020 -{' '}
@@ -22,13 +19,9 @@ export const Education = () => {
       </Box>
 
       <Box display="flex" flexDirection="column">
-        <Box display="flex" alignItems="center">
-          <Typography fontWeight={700}> Belgorod state technological university (BSTU) </Typography>
-          <Typography color="gray" fontStyle="italic">
-            {' '}
-            &nbsp; – &nbsp;Bachelor’s degree
-          </Typography>
-        </Box>
+        <Typography>
+          <b> Belgorod state technological university (BSTU) </b>&nbsp; – &nbsp;Bachelor’s degree
+        </Typography>
         <Typography color="gray" variant="caption">
           2017 – present
         </Typography>
@@ -36,13 +29,10 @@ export const Education = () => {
       </Box>
 
       <Box display="flex" flexDirection="column">
-        <Box display="flex" alignItems="center">
-          <Typography fontWeight={700}> Belgorod state technological university (BSTU) </Typography>
-          <Typography color="gray" fontStyle="italic">
-            {' '}
-            &nbsp; – &nbsp;Masters Degree in Economics
-          </Typography>
-        </Box>
+        <Typography>
+          <b> Belgorod state technological university (BSTU) </b>&nbsp; – &nbsp;Masters Degree in
+          Economics
+        </Typography>
         <Typography color="gray" variant="caption">
           2010 – 2015
         </Typography>

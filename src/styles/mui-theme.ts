@@ -8,7 +8,7 @@ export const useTheme = () => {
       palette: {
         mode: 'light',
         primary: {
-          main: '#00af59',
+          main: '#158d52',
         },
       },
     });
